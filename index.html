@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Peças</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <Header>
+        <div class="royal-pecas"><h1>Royal Peças</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#">Peças</a></li>
+                <li><a href="#">Contribuir</a></li>
+                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#">Sobre o criador</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <section class="intro">
+        <h1>O seu site para achar peças  <br>compatíveis com sua moto Royal</h1>
+    </section>
+    <!--Botões pra trocar o slide-->
+    <section class="carrocel-section">
+        <div class="carrocel">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+        <!--slides-->
+            <div class="slide-s1">
+                    <picture>
+                        <source media="(max-width:650px )" srcset="src/img/carrocel/himalayan-325x200.png" type="image/png">
+                        <img src="src/img/carrocel/himalayan-400x300.png" alt="Himalayan">
+                    </picture>
+            </div>
+            <div class="slide-s2">
+                    <picture>
+                        <source media="(max-width:650px )" srcset="src/img/carrocel/himalayan-325x200.png" type="image/png">
+                        <img src="src/img/carrocel/hunter-325x214.png" alt="Himalayan">
+                    </picture>
+            </div>
+            <div class="slide-s3">
+                    <picture>
+                        <source media="(max-width:650px )" srcset="src/img/carrocel/himalayan-325x200.png" type="image/png">
+                        <img src="src/img/carrocel/himalayan-400x300.png" alt="Himalayan">
+                    </picture>
+            </div>
+        <!--Navegação-->
+            <div class="navegacao">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
