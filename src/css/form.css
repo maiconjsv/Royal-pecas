@@ -1,0 +1,29 @@
+
+
+.form-div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-div form{
+    background: rgba(128, 128, 128, 0.603);
+    display: flex;
+    flex-flow: column wrap;
+    padding: 13px;
+    border-radius: 14px;
+}
+
+.form-div form input{
+    width: 325px;
+    height: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-div form textarea{
+   margin-bottom: 10px;
+   height: 100px;
+   padding: 10px;
+}

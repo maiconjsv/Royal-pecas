@@ -224,3 +224,176 @@ header{
     visibility: visible;
     opacity: 1;
 }
+
+#newHimalayan{
+    background-image: url(../img/motos/newhimalayan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+
+#newHimalayan:hover{
+     background-size: 120%;
+}
+
+#newHimalayan:hover #newHimalayan-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+#interceptor{
+    background-image: url(../img/motos/interceptor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#interceptor:hover{
+     background-size: 120%;
+}
+
+#interceptor:hover #interceptor-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+#continental{
+    background-image: url(../img/motos/continental.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#continental:hover{
+     background-size: 120%;
+}
+
+#continental:hover #continental-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+#classic{
+    background-image: url(../img/motos/classic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#classic:hover{
+     background-size: 120%;
+}
+
+#classic:hover #classic-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+#superMeteor{
+    background-image: url(../img/motos/supermeteor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#superMeteor:hover{
+     background-size: 120%;
+}
+
+#superMeteor:hover #superMeteor-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+#meteor{
+    background-image: url(../img/motos/meteor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#meteor:hover{
+     background-size: 120%;
+}
+
+#meteor:hover #meteor-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+#hunter{
+    background-image: url(../img/motos/hunter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#hunter:hover{
+     background-size: 120%;
+}
+
+#hunter:hover #hunter-txt{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*seção ajude a comunidade*/
+.ajude{
+    background-image: url(../img/intro/ajude.jpg);
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center ;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.ajude h1{
+    text-align: justify;
+    padding: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 29px;
+    
+}
+
+
+/*footer*/
+footer{
+    background-color: #e53617;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinks{
+    gap: 7px;
+}
+footer small{
+    color: white;
+    margin-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: white;
+}

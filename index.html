@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="shortcut icon" href="src/icons/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/form.css">
 </head>
 <body>
     <Header>
@@ -34,37 +35,89 @@
             <h1>Encontre a peça que você procura para sua Royal</h1>
         </div>
     </div>
-   <section class="main">
-        <div class="intro-2">
-            <div>
-                <h2>Peças por moto</h2>
+   <main>
+       <section class="main">
+            <div class="intro-2">
+                <div>
+                    <h2>Peças por moto</h2>
+                </div>
+            </div>
+            <div class="motos">
+                <a href="#">
+                    <div class="modelo_moto" id="himalayan">
+                        <span class="txt-moto" id="txt-himalayan">VER PEÇAS</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modelo_moto" id="shotgun">
+                        <span class="txt-moto" id="txt-shotgun">VER PEÇAS</span>
+                    </div>
+                </a>
+                 <a href="#">
+                     <div class="modelo_moto" id="superMeteor">
+                            <span class="txt-moto" id="superMeteor-txt">VER PEÇAS</span>
+                    </div>
+                 </a>
+                <a href="#">
+                    <div class="modelo_moto" id="newHimalayan">
+                        <span class="txt-moto" id="newHimalayan-txt">VER PEÇAS</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modelo_moto" id="interceptor">
+                        <span class="txt-moto" id="interceptor-txt">VER PEÇAS</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modelo_moto" id="continental">
+                        <span class="txt-moto" id="continental-txt">VER PEÇAS</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modelo_moto" id="classic">
+                        <span class="txt-moto" id="classic-txt">VER PEÇAS</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modelo_moto" id="meteor">
+                        <span class="txt-moto" id="meteor-txt">VER PEÇAS</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="modelo_moto" id="hunter">
+                        <span class="txt-moto" id="hunter-txt">VER PEÇAS</span>
+                    </div>
+                </a>
+            </div>
+        <div class="ajude">
+            <h1>Ajude outros motociclistas, contribua com peças que você conhece</h1>
+            <div class="form-div">
+                <form action="dados.php" method="post">
+                    <label for="nome-contribuinte">Seu nome</label>
+                        <input type="text" name="nome-contribuinte" id="nome" placeholder="nome" required>
+                    <label for="email">Seu E-mail</label>
+                        <input type="email" name="email" id="iemail" placeholder="seuemail@email.com" required>
+                    <label for="nome-moto">Modelo da moto</label>
+                        <input type="text" name="nome-moto" id="nomeMoto" placeholder="modelo da moto" required>
+                    <label for="peca-nome">Nome da peça</label>
+                        <input type="text" name="peca-nome" id="peça-moto" placeholder="nome da peça" required>
+                    <label for="peca-link">Link da peça</label>
+                        <input type="url" name="peca-link" id="peçaLink" placeholder="link da peça" required>
+                    <label for="mensagem">Observações</label>
+                        <textarea name="mensagem" id="obs" placeholder="digite aqui alguma observação"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </div>
-
-        <div class="motos">
-            <a href="#">
-                <div class="modelo_moto" id="himalayan">
-                    <span class="txt-moto" id="txt-himalayan">HIMALAYAN 411</span>
-                </div>
-            </a>
-            <a href="#">
-                <div class="modelo_moto" id="shotgun">
-                    <span class="txt-moto" id="txt-shotgun">SHOTGUN 650</span>
-                </div>
-            </a>
-            <div class="modelo_moto">
-            </div>
-            <div class="modelo_moto">
-            </div>
-            <div class="modelo_moto">
-            </div>
-            <div class="modelo_moto">
-            </div>
-            <div class="modelo_moto">
-            </div>
+       </section>
+   </main>
+    <footer>
+        <small>Desenvolvido por Maicon</small>
+        <div class="footerLinks">
+            <a href=""><small>contato</small></a>
+            <a href=""><small>Termos de uso</small></a>
         </div>
-   </section>
-    
+    </footer>
     <script src="menuheader.js"></script>
 </body>
 </html>
