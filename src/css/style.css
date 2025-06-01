@@ -9,16 +9,18 @@ body{
     background-color: black;
 }
 header{
-    background-color: red;
-    height: 40px;
+    background-color: #e53617;
+    height: 50px;
+    width: 100%;
     align-items: center;
     display: flex;
-    z-index: 3;
+    z-index: 2;
+    position: fixed;
 }
 
 /* estilização do botão do menu */
 .toggle{
-    background-color: red;
+    background-color: #e53617;
     color: white;
     position: fixed;
     left: 10px;
@@ -42,8 +44,8 @@ header{
     top: 0;
     width: 300px;
     height: 100%;
-    background-color: red;
-    z-index: 4;
+    background-color: #e53617;
+    z-index: 3;
     box-shadow: 2px 1px 2px black;
     transition: all 0.5s ease;
 }
@@ -86,7 +88,7 @@ header{
     padding: 0;
     width: 100%;
     height: 100%;
-    z-index: 3;
+    z-index: 1;
     background-color: rgba(0, 0, 0, 0.295);
     visibility: hidden;
     transition: all ease 0.5s;
@@ -95,6 +97,130 @@ header{
     visibility: visible;
 }
 
-section{
-    background-color: white;
+/* logo*/
+#logo{
+    position: fixed;
+    right: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}  
+#logo a{
+    text-decoration: none;
+    color: white;
+    transition: all ease-in 0.5s;
+}  
+#logo a:hover{
+    font-size: 18px;
+    transition: all ease-in 0.5s;
+}
+
+/* foto introdução */
+
+#intro{
+    background-image:url('../img/intro/intro-foto.png');
+    background-size: cover;
+    min-height: 450px;
+    width: 100%;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+
+#h1_intro{
+    color: white;
+    padding-top: 200px;
+    margin: 0px 20px 0px 5px;
+    text-shadow: 1px 2px 3px black;
+}
+
+
+
+.intro-2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.intro-2 h2{
+    color: white;
+    padding: 13px 0 0 0;
+
+}
+/*estilização das opções de motos*/
+
+.motos{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.modelo_moto{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: solid rgba(165, 42, 42, 0.699);
+    margin-top: 50px;
+    
+}
+
+
+
+/*estilizar as divs por moto*/
+
+#himalayan{
+    background-image: url(../img/motos/himalayan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+#himalayan:hover{
+    background-size: 120%;
+}
+
+.txt-moto{
+    position:absolute;
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    text-align: center;
+    background-color: rgb(209, 207, 207);
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+#himalayan:hover #txt-himalayan{
+    visibility: visible;
+    opacity: 1;
+}
+
+#shotgun{
+    background-image: url(../img/motos/shotgun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition:ease 0.5s;
+    position: relative;
+}
+
+#shotgun:hover{
+     background-size: 120%;
+}
+
+#shotgun:hover #txt-shotgun{
+    visibility: visible;
+    opacity: 1;
 }
